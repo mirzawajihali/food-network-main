@@ -15,6 +15,7 @@ body {  padding: 0;
         font-family: 'Fjalla One', sans-serif;}
         
 
+
 .contain {display: flex;}
 
 .container      {width: 40%;
@@ -35,7 +36,7 @@ body {  padding: 0;
 p               {font-family: 'Oswald', sans-serif;
                 font-weight: 300;}
 
-.contain a      {padding: 10px 50px;
+.button     {padding: 10px 50px;
                  border-radius: 20px;
                  border: 2px solid black ;
                 background-image:linear-gradient(white, #53d4ff , #ffffff);
@@ -56,14 +57,6 @@ span            {color: rgb(4, 163, 236);}
 
 .information img {width: 700px; }
 
-.information a {padding: 10px 50px;
-                border-radius: 20px;
-                border: 2px solid black ;
-                background-image:linear-gradient(white, #53d4ff , #ffffff);
-                text-decoration: none;
-                color: black;
-                font-weight: 700;
-                font-family: 'Fjalla One', sans-serif; }
 
 #middle-title {text-align: center;
                  margin: 30px;
@@ -99,7 +92,37 @@ span            {color: rgb(4, 163, 236);}
                 font-family: 'Bebas Neue', cursive;
                  color: rgb(4, 163, 236);}
 
+.extra          {background-image: url(images/shapes/extrabg.jpg);
+                display: block;
+                height: 600px;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;}
+
+.menu {color: white;
+        font-size:20px;
+        text-align: center;
+        padding:150px 350px;
+        }
+.menu h1 {font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        text-shadow: 5px 5px 10px #000000;}
+
+.menu p {text-shadow: 3px 3px 5px #000000;}
+
+.menu a {padding: 10px 50px;
+        border-radius: 20px;
+        border: 2px solid rgb(0, 0, 0) ;
+        background-image:linear-gradient(black,  #444343);
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       font-weight: 700;
+       font-family: 'Fjalla One', sans-serif;}
+
 footer  {height: 160px;
+        margin-top: 150px;
         width: 100%;
         color: white;
         padding-top: 10px;
