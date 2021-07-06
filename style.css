@@ -4,16 +4,34 @@ body {padding: 0;
 .contain {display: flex;}
 .container {width: 40%;
             margin: 20px;
-            padding: 40px 60px}
-.container img {width: 90%;}
+            padding: 40px 60px ;
+        color: black;
+                font-size: 20px;
+                font-weight: 600; }
+.container img {width: 100%;}
 .container h1 {font-family: 'Bebas Neue', cursive;
                 font-size: 50px;
-                font-weight: 700;}
-span {color: orange;}
+                font-weight: 700;
+                color: rgb(75, 75, 75);
+        }
+.contain a {padding: 10px 50px;
+        border-radius: 10px;
+        border: 2px solid black ;
+         background-image:linear-gradient(rgb(98, 224, 255) , rgb(251, 251, 251));
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        
+        font-family:  'Bebas Neue', cursive;
+        }
+span {color: rgb(4, 163, 236);}
 
 .information {display: flex;
-                height: 500px;
+                height: 700px;
                 width: 100%;
                 background-repeat: no-repeat;
                 background-image: url(images/shapes/Frame\ 57.jpg);
             background-size: cover;}
+
+.information img { width: 600px;
+       }
